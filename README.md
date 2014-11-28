@@ -4,7 +4,12 @@ A simple vanilla js library which consumes album's data from Google Photos servi
 
 ## Instalation
 
-Add the `vanilla-gphoto.js` script into your html file:
+You can download the lib: 
+* [development version](https://raw.githubusercontent.com/caio-ribeiro-pereira/vanilla-gphoto/1.0.0/lib/vanilla-gphoto.js) (2 Kbytes);
+* [minified version](https://raw.githubusercontent.com/caio-ribeiro-pereira/vanilla-gphoto/1.0.0/dist/vanilla-gphoto.min.js) (1 Kbytes);
+* [gzipped version](https://raw.githubusercontent.com/caio-ribeiro-pereira/vanilla-gphoto/1.0.0/dist/vanilla-gphoto.min.gz.js) (593 bytes);
+
+Include the `vanilla-gphoto.js` script into your html file:
 
 ``` html
 <html>
@@ -16,7 +21,7 @@ Add the `vanilla-gphoto.js` script into your html file:
 
 ## Running
 
-After add the script, just run this code below:
+To use this lib, just run the code below:
 
 ``` html
 <script>
@@ -27,7 +32,7 @@ VGPhoto.getAlbum(data, function(err, album) {
 </script>
 ```
 
-To find the `userId` and `albumId`, enter in your Google Photos album and take a look in the url pattern:
+To find the `userId` and `albumId`, enter into your Google Photos album and take a look in the url pattern:
 
 ```
 https://plus.google.com/photos/{userId}/albums/{albumId}
@@ -60,6 +65,23 @@ The `album` variable will return an object with these properties:
   ]
 }
 ```
+
+**Atention:** Only public photos will be listed! Don't forgot to change the photo visibility to public.
+
+## TODOs
+
+* Bower support
+* Atmosphere support
+* Travis CI build
+* Jasmine test
+
+## Compatibility
+
+* Chrome 4.0+
+* Firefox 2.0+
+* Safari 4.0+
+* Opera 10.0+
+* Internet Explorer 8+
 
 ## Changelog
 
