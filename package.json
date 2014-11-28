@@ -1,0 +1,23 @@
+{
+  "name": "vanilla-gphoto",
+  "version": "1.0.0",
+  "description": "A simple vanilla js library which consumes album's data from Google Photos service.",
+  "main": "vanilla-gphoto.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caio-ribeiro-pereira/vanilla-gphoto"
+  },
+  "author": "Caio Ribeiro Pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caio-ribeiro-pereira/vanilla-gphoto/issues"
+  },
+  "homepage": "https://github.com/caio-ribeiro-pereira/vanilla-gphoto",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compress": "^0.12.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0"
+  }
+}
